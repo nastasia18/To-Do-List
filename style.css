@@ -1,0 +1,76 @@
+body {
+    font-family: 'Arial';
+}
+
+header {
+    text-align: center;
+    font-size: 40px;
+    line-height: 1.5;
+}
+
+main {
+    width: 800px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+#input-task {
+    border: none;
+    border-bottom: 2px solid #8802af;
+    outline: none;
+    width: 80%;
+}
+
+.add-task__wrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+#add-task-button {
+    background: #8802af;
+    color: #fff;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+#task-list {
+    list-style: none;
+    padding: 0;
+}
+
+#task-list li {
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#task-list li.checked span {
+    text-decoration: line-through;
+}
+
+#task-list input {
+    margin-right: 13px;
+}
+
+#task-list .task {
+    margin-right: auto;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#task-list .delete-btn {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: red;
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
